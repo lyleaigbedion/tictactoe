@@ -16,3 +16,25 @@ h1 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
   }
+
+  .box {
+    /*background: #9E9E9E;*/
+    border: black 1px solid;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 0;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+}
+
+.row {
+    display: block;
+    float:left;
+    width:100%;
+}
+#gameboard{
+  position: absolute;
+  left: 34%;
+}
