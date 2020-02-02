@@ -12,12 +12,12 @@ h1 {
     border-left: 2px solid black;
     border-right: 2px solid black;
   }
-  .hori {
+.hori {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
   }
 
-  .box {
+.box {
     /*background: #9E9E9E;*/
     border: black 1px solid;
     width: 180px;
@@ -27,6 +27,94 @@ h1 {
     cursor: pointer;
     display: inline-block;
     float: left;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 180px;
+    font-size: 120px;  
+}
+
+.inputs{
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  
+}
+
+input{
+  background-color:transparent;
+  border: none;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  /*display: flex;*/
+  /*flex: 100%;*/
+  margin-top: -37px;
+  font: 16px arial,sans-serif;
+  line-height: normal;
+  line-height: 34px;
+  height: 34px !important;
+
+  background:
+  #fff;
+  border-radius: 8px;
+  border: 1px solid
+  #dfe1e5;
+  box-shadow: none;
+  border-radius: 4px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  padding-left: 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+button  {
+  background-color:
+  #f2f2f2;
+  border: 1px solid
+  #f2f2f2;
+  border-radius: 4px;
+  color:
+  #5F6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 1px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:hover {
+box-shadow: 0 1px 1px
+rgba(0,0,0,0.1);
+background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+background-color:
+#f8f8f8;
+border: 1px solid
+#c6c6c6;
+color:
+#222;
+}
+
+button:focus {
+  border: 1px solid
+  #4d90fe;
+  outline: none;
+}
+
+label {
+  font: 16px arial,sans-serif;
+  
 }
 
 .row {
