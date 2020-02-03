@@ -22,6 +22,7 @@ const gameBoard = (()=>{
 
     }
     const startGame = () =>{
+        
         clearBoard();
         document.getElementById("gameText").innerHTML = "";
         const Player = (name, symbol, move) => {
@@ -47,6 +48,11 @@ const gameBoard = (()=>{
             player2 = Player(p2Name,"O",false);
         }
         
+        if(p1Name === "" || p2Name === ""){
+            alert("Please add a name");
+            return;
+        }
+        document.getElementById("input").style.visibility = "hidden";
 
         function computerPlay() {
             if (document.getElementById("comp").checked == true  // verifies the computer is playing and the game
@@ -184,7 +190,7 @@ const gameBoard = (()=>{
             
         }
         
-        
+        document.getElementById("input").style.visibility = "visible";
         
     } 
     

@@ -16,15 +16,16 @@
       </p>
     <![endif]-->
     <h1>Tic Tac Toe</h1>
-    <div class="inputs">
+    <div id="input" class="inputs">
       <input id="Player1" type="text" placeholder="Player 1 Name">
       <input id="Player2" type="text" placeholder="Player 2 Name">
       <input id="comp" type="checkbox" name="Comp" onclick="gameBoard.disablePlayerTwo();">
       <label for="Comp">Computer Player</label>
       <button class="button" onclick="gameBoard.startGame();">Start Game</button>
     </div>
-    <div id="gameboard"></div>
     <div id="gameText"></div>
+    <div id="gameboard"></div>
+    
 
     <script src="script.js" async defer></script>
   </body>
